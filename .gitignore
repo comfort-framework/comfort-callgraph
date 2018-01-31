@@ -4,7 +4,7 @@
 __pycache__/
 *$py.class
 
-
+*.pyc
 
 # Distribution / packaging
 .Python
@@ -111,3 +111,4 @@ pip-selfcheck.json
 /.callgraph_log
 /seppelshark-callgraph.iml
 .idea/
+.pytest_cache/
