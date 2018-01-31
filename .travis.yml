@@ -1,0 +1,12 @@
+language: python
+python: 3.6
+before_install:
+  - cd $TRAVIS_BUILD_DIR/seppelshark-callgraph
+install:
+  - pip install -r requirements_test.txt
+  - pip install codecov
+  - python setup.py develop
+script:
+  - py.test --cov=./ -vv -s tests
+after_success:
+  - codecov
