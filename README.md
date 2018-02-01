@@ -1,7 +1,6 @@
 # COMFORT CallGraph
 [![Build Status](https://travis-ci.org/comfort-framework/comfort-callgraph.svg?branch=master)](https://travis-ci.org/comfort-framework/comfort-callgraph)
 [![codecov](https://codecov.io/gh/comfort-framework/comfort-callgraph/branch/master/graph/badge.svg)](https://codecov.io/gh/comfort-framework/comfort/comfort-callgraph)
-[![BCH compliance](https://bettercodehub.com/edge/badge/comfort-framework/comfort-callgraph?branch=master)](https://bettercodehub.com/)
 
 ### Description
 COMFORT CallGraph tracks the execution of the tests and generates a call graph based on it. It
